@@ -1,6 +1,8 @@
 import React from "react"
 import './home.style.css'
-//import BricksIndex from "../components/Bricks"
+//import WrapperSkeleton from "../components/Skeleton"
+//import MainSkeleton from "../components/SkeletonSlayd"
+
 
 
 
@@ -15,7 +17,9 @@ const Home = React.memo(() => {
     return (  
         <div className="page page-enter-active">
             <h1 className="main_title">Разработка сайтов на React открывает бесконечные возможности</h1>
-           
+        
+
+           {/*<MainSkeleton />*/}
             <div className="main_text">
             <ul className="list_text">
                 <li className="main_title">Забудьте о границах с CMS</li>

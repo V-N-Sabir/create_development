@@ -1,15 +1,15 @@
 
 
 .skeleton {
-    width: 90vw;
+    width: fit-content;
    /* border: 1px solid blueviolet;*/
    /* height: 100px;*/
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
 /*
 .skeleton svg {
-    margin-top: 10px;
+    margin-right: -50px;
 }*/

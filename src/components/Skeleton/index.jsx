@@ -9,7 +9,6 @@ const WrapperSkeleton = () => (
     <Skeleton />
     <Skeleton />
     <Skeleton />
-    <Skeleton />
 </div>
 )
 

@@ -1,16 +1,19 @@
 import React from "react"
-import HeaderSkeleton from "./HeaderSkeleton"
 import "./index.css"
 import ImgSkeleton from "./ImgSkeleton"
+import WrapperSkeleton from "../Skeleton"
 
 const MainSkeleton = () => (
+ 
+   <div className="wrappet_skeleton">
+<WrapperSkeleton />
+
+
+ 
  <div className="main_skeleton">
     <ImgSkeleton />
-    <HeaderSkeleton  width={14} />
-    <HeaderSkeleton width={14}/>
-    <HeaderSkeleton width={14}/>
-    <HeaderSkeleton width={14}/>
-    <HeaderSkeleton width={40}/>
+    <ImgSkeleton />
+ </div>
 
  </div>
 )

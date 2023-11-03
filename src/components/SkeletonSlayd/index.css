@@ -1,8 +1,12 @@
+.wrappet_skeleton {
+  display: flex;
+  /* width: 100vw; */
+  justify-content: space-between;
+  align-items: center;
+}
 .main_skeleton {
-    width: 1200px;
-    border: 1px solid blueviolet;
-     height: 100px;
-     display: flex;
-     justify-content: center;
-     align-items: center; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
 }
