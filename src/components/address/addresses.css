@@ -15,7 +15,6 @@
 }
 
 
-
 .wr_footer_block {
     display: flex;
     justify-content: space-around;
@@ -45,4 +44,16 @@
 
 .wrapper_fotter_adres {
     width: 50%;
+}
+
+.wrapper_footer_skeleton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.wrapper_footer_skeleton svg:first-child {
+    /* padding-top: 50px; */
+    margin-bottom: -45px;
 }

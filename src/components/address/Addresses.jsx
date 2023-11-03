@@ -9,6 +9,8 @@ import trubka from "../img/adresses/trubka.webp"
 
 import ImageIndex from '../contacts/ImageIndex'
 import './addresses.css'
+import ImgSkeleton from '../SkeletonSlayd/ImgSkeleton'
+import Skeleton from '../Skeleton/Skeleton'
 
 const Adresses = () => {
 
@@ -23,18 +25,25 @@ const Adresses = () => {
   return (
       
     <div ref={ref} className='wrapper_fotter_adres'>
+      {/*<div className='wrapper_footer_skeleton'><ImgSkeleton/> <Skeleton/></div>*/}
+      {inView ?  
       <div className='main_adress'>
-        {inView && <ImageIndex src={trubka} alt={"trubka"}/>}
-          <p className='main_adress_text'>+998 90 3463546</p>
-      </div>
+        <ImageIndex src={trubka} alt={"trubka"}/> 
+        <p className='main_adress_text'>+998 90 3463546</p>
+      </div>: 
+      <div className='wrapper_footer_skeleton'><ImgSkeleton/><Skeleton/></div>}
+      {inView ? 
       <div className='main_adress'>
-          {inView && <ImageIndex src={maps} alt={"maps"}/>}
+          <ImageIndex src={maps} alt={"maps"}/>
           <p className='main_adress_text'>г. Ташкент, Мирабадский район</p>
-      </div>
-      <div className='main_adress'>
-        {inView && <ImageIndex src={pismo} alt={"pismo"}/>}
+      </div>: 
+      <div className='wrapper_footer_skeleton'><ImgSkeleton/><Skeleton/></div>}
+
+      {inView ? <div className='main_adress'>
+        <ImageIndex src={pismo} alt={"pismo"}/>
         <p className='main_adress_text'>sabirka682@gmail.com</p>
-      </div>
+      </div>: 
+      <div className='wrapper_footer_skeleton'><ImgSkeleton/><Skeleton/></div>}
 
     
     

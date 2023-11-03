@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   background: rgb(240, 240, 240);
+  height: 90px;
 }
 .main_skeleton {
   display: flex;

@@ -1,6 +1,5 @@
 import React from "react"
 import './home.style.css'
-//import WrapperSkeleton from "../components/Skeleton"
 //import MainSkeleton from "../components/SkeletonSlayd"
 
 
