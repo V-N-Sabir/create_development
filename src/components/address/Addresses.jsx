@@ -6,9 +6,9 @@ import maps from "../img/adresses/karta.webp"
 import pismo from "../img/adresses/pismo.webp"
 import trubka from "../img/adresses/trubka.webp"
 
-import './addresses.css'
-import ImageIndex from '../contacts/ImageIndex'
 
+import ImageIndex from '../contacts/ImageIndex'
+import './addresses.css'
 
 const Adresses = () => {
 
@@ -29,7 +29,7 @@ const Adresses = () => {
       </div>
       <div className='main_adress'>
           {inView && <ImageIndex src={maps} alt={"maps"}/>}
-          <p className='main_adress_text'>г. Ташкент, Мирабадский район, дом 6</p>
+          <p className='main_adress_text'>г. Ташкент, Мирабадский район</p>
       </div>
       <div className='main_adress'>
         {inView && <ImageIndex src={pismo} alt={"pismo"}/>}

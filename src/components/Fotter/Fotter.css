@@ -3,3 +3,24 @@
     /* border: 2px solid red; */
     margin: auto 10px;
 }
+
+/*
+@media (max-width: 2560px) {
+
+
+}
+*/
+@media (max-width: 768px) {
+ .wr_footer_block {
+    display: block;
+ }   
+
+ .navBar_contact {
+   width: 200px;
+ }
+
+ .main_pages {
+    width: 90vw;
+ }
+}
+

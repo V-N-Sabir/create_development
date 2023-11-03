@@ -21,6 +21,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: #f0f0f0;
+    width: 100vw;
 }
 
 .main_adress_text {
@@ -28,7 +29,7 @@
     min-width: max-content;
 
     font-family: 'Nunito_ExtraLight', serif;
-    font-size: calc(16px  * (100vw / 1200));
+    font-size: calc(16px + 6 * (100vw / 2560));
 }
 
 .footer_contact {
@@ -39,4 +40,9 @@
 .footer_contact img {
     max-width: 100%;
     border-radius: 15px;
+}
+
+
+.wrapper_fotter_adres {
+    width: 50%;
 }
