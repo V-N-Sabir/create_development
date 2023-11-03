@@ -1,0 +1,80 @@
+/* https://create-react-app.dev/docs/adding-css-reset/ */
+@import-normalize; /* bring in normalize.css styles */
+
+.App {
+  display: grid;
+ /* text-align: center;*/
+  grid-template-areas: 'navBar' 'main_pages' 'main_footer';
+  /*подвал к низу страницы*/
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  /*подвал конец*/
+}
+
+
+.navBar {
+  grid-area: navBar;
+}
+
+.main_pages {
+  grid-area: main_pages;
+
+  /*display: grid;*/
+  justify-self: center;
+
+  width: 80vw;
+  padding-top: 5vw;
+}
+
+
+.main_footer {
+  grid-area: main_footer;
+}
+
+
+@keyframes fade-in {
+
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+}
+
+/*
+.page {
+  position: absolute;
+}
+*/
+
+/*!отвечает за появление*/
+.page-enter-active {
+  animation: fade-in 1s forwards;
+}
+/*!отвечает за исчезновение*/
+.page-exit-active {
+  animation: fade-out 1s forwards;
+}
+
+@keyframes fade-out {
+
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  
+}
+
+
+
+

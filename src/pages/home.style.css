@@ -1,0 +1,180 @@
+
+
+
+
+/*!Animaciya briks - kirpichi*/
+.main_home {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    column-gap: 10px;
+
+}
+
+.home_childre {
+   /* height: 100px;*/
+    width: 300;
+    /*border: 2px solid black;*/
+    background-color: #e3b8a5;
+    border-radius: 5px;
+    /*margin: 10px auto;*/
+    padding: 5px;
+
+    min-height: 100px;
+    text-align: center;
+    opacity: 0;
+    height: 100px;
+}
+
+.home_two {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+
+    column-gap: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+    }
+
+
+    
+
+
+
+
+
+.ref_fonts_roboto {
+
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+
+@keyframes one_block {
+    0% {
+        left: -500px;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        left: 0px;
+    }
+}
+
+
+
+
+.one_block {
+    position: relative;
+    z-index: 3;
+    animation: one_block 1s ease-in ;
+    animation-fill-mode: forwards;
+}
+
+.two_block {
+    position: relative;
+    z-index: 2;
+    animation: one_block 1s ease-in;
+    animation-fill-mode: forwards;
+    /*задержка*/
+    animation-delay: 1s;
+}
+
+
+
+.free_lock {
+    position: relative;
+    z-index: 1;
+
+    animation: one_block 1s ease-in;
+    /*применятся стили из анимации 100%*/
+    animation-fill-mode: forwards;
+    /*задержка*/
+    animation-delay: 2s;
+}
+
+@keyframes top_block {
+    0% {
+        top: -500px;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+.four_block {
+    position: relative;
+    z-index: 3;
+    animation: top_block 1s ease-in-out;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+.five_block {
+    position: relative;
+    z-index: 2;
+    animation: top_block 1s ease-in-out;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+.six_block {
+    position: relative;
+    z-index: 1;
+    animation: top_block 1s ease-in-out;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes color_block {
+    0% {
+        background-color: white;
+    }
+    100% {
+        background-color: rgb(98 48 32 / 0.7)/* #623020;*/
+    }
+}
+
+.main_block {
+   /* border: 1px solid red;*/
+    overflow: hidden;
+    height: 240px;
+    padding: 10px 10px  0 10px;
+    border-radius: 15px;
+
+    animation: color_block 2s ease-in-out;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+/*End animaciya*/
+
+
+
+
+
+
+
+
+
+
+
+
+.main_title {
+    font-family: 'PlayfairDisplay_Regular', serif;
+    font-size: calc(24px + 16 * (100vw / 1200));
+    margin: 8px auto 12px;
+    text-align: center;
+}
+
+.main_text {
+    font-family: 'Nunito_ExtraLight', serif;
+  /*  font-size: 18px;*/
+    font-size: calc(16px + 16 * (100vw / 1200));
+
+
+}
+

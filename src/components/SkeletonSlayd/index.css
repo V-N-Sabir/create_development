@@ -1,0 +1,8 @@
+.main_skeleton {
+    width: 1200px;
+    border: 1px solid blueviolet;
+     height: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+}

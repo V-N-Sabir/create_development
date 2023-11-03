@@ -1,0 +1,7 @@
+node_modules
+.git
+# Системная папка в WebStorm
+.idea 
+
+Dockerfile
+create_component_pages

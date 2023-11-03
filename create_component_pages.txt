@@ -1,0 +1,2 @@
+> npm run component NameComponent
+> npm run page NamePages

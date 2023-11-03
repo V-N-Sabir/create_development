@@ -1,0 +1,48 @@
+.main_notfound {
+    font-family:'PlayfairDisplay_Regular', serif;
+}
+
+.main_ref_notfounds {
+    text-decoration: none;
+    padding: 5px 50px;
+
+    border-radius: 15px;
+    background: #f0f0f0;
+    color: navy;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 1px 2px 3px;
+    transition: all 1s linear;
+}
+
+.main_ref_notfounds:hover {
+    box-shadow: 0px 0px 3px;
+    transition: all 2s linear;
+}
+
+.main_title_mistake, .main_mistake, .number_mistake {
+    color: red;
+    
+}
+
+.main_title_mistake {
+    text-align: center;
+}
+
+.main_mistake {
+    padding-right: 30px;
+}
+
+.number_mistake {
+
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+.wrapper_mistake {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
