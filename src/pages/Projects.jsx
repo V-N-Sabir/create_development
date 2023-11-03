@@ -8,7 +8,7 @@ const Projects = () => {
     return (  
          <div className="page page-enter-active">
 
-            Portfolio
+            Для публикаций портфолий - ждем одобрений от заказчиков...
             </div>
        
         )
