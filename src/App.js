@@ -16,7 +16,7 @@ const  NavBar = React.lazy( () => import(/* webpackChunkName: "NavBar" */ "./com
 function App() {
   return (
     <div className="App">
-       <React.Suspense fallback={<div>Loading...</div>}><NavBar /></React.Suspense>
+       <React.Suspense ><NavBar /></React.Suspense>
        <React.Suspense><AppRouter/></React.Suspense>
         {/*<React.Suspense fallback={<div>Loading FUTTER...</div>}><FotterIndex /></React.Suspense>*/}
     

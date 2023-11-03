@@ -1,8 +1,9 @@
 .wrappet_skeleton {
   display: flex;
-  /* width: 100vw; */
+  width: 98vw;
   justify-content: space-between;
   align-items: center;
+  background: rgb(240, 240, 240);
 }
 .main_skeleton {
   display: flex;
