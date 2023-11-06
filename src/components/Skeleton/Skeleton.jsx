@@ -8,12 +8,12 @@ const Skeleton = React.memo(() => (
     speed={3}
     width={250}
     height={25}
-    viewBox="0 0 200 32"
+    viewBox="0 0 180 32"
     backgroundColor="#e1d1e1"
     foregroundColor="#c14949"
    
   >
-    <rect x="32" y="1" rx="3" ry="3" width="200" height="25" /> 
+    <rect x="32" y="1" rx="3" ry="3" width="180" height="25" /> 
    
   </ContentLoader>
 ))

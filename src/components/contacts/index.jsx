@@ -3,8 +3,10 @@ import { useInView } from "react-intersection-observer"
 import { NavLink } from "react-router-dom"
 import tg from "../img/adresses/tg_2.webp"
 import call_me from "../img/adresses/trubka.webp"
-import "./index.css"
 import ImageIndex from "./ImageIndex"
+import "./index.css"
+
+//import ImgSkeleton from "../SkeletonSlayd/ImgSkeleton"
 
 const Contacts = React.memo(({clName}) => {
 
@@ -18,6 +20,7 @@ const Contacts = React.memo(({clName}) => {
     <div ref={ref} className={clName}>
     <NavLink className={"tg_contact"} to={"https://t.me/integration1C"} target="_blank">
         {inView && 
+        
         <ImageIndex src={tg} alt={"telegram contact"}/>}
     </NavLink>
 

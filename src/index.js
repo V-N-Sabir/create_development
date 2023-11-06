@@ -9,10 +9,10 @@ import { Provider } from 'react-redux';
 import {store} from './redux/store'
 
 //import FotterIndex from "./components/Fotter"
-import './index.css'
+
 import LoadingIndex from './components/loadingIndex/LoadingIndex';
 //import MainSkeleton from './components/SkeletonSlayd';
-
+import './index.css'
 const  App = React.lazy( () => import(/* webpackChunkName: "App" */ "./App"))
 //const  FotterIndex = React.lazy( () => import(/* webpackChunkName: "FotterIndex" */ "./components/Fotter"))
 

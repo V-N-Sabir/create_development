@@ -1,6 +1,7 @@
 .wrappet_skeleton {
   display: flex;
-  width: 98vw;
+  /*width: 90vw;*/
+  width: fit-content;
   justify-content: space-between;
   align-items: center;
   background: rgb(240, 240, 240);
@@ -11,4 +12,5 @@
   align-items: center;
   justify-content: center;
   padding-top: 30px;
+  width: 40vw;
 }
