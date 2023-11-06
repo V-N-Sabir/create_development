@@ -10,7 +10,7 @@ import './home.style.css'
 
 const Home = React.memo(() => {
 
-    const [state, setUseState] = React.useState(0)
+   /* const [state, setUseState] = React.useState(0)
 
     React.useEffect(() => {
         if (window.innerWidth > 0) {
@@ -18,11 +18,10 @@ const Home = React.memo(() => {
         }
 
     }, [])
-
+*/
     return (  
         <div className="page page-enter-active">
             <h1 className="main_title">Разработка сайтов на React открывает бесконечные возможности</h1>
-            <h2 className="innerwidth">Ширина экрана = {state}</h2>
 
            {/*<MainSkeleton />*/}
             <div className="main_text">
