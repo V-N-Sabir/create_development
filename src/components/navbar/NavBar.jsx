@@ -11,7 +11,7 @@ import { navBarRef } from "../navBarRef/navBarRef"
 
 
 
-const NavBar = () => {
+const NavBar = React.memo(() => {
 
     const navigate = useNavigate()
     //!!! Обернуть в useMemo
@@ -41,7 +41,7 @@ return (
     <Contacts clName="navBar_contact"/>
   
  </header>
-)}
+)})
 
 
 export default NavBar

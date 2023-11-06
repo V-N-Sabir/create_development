@@ -11,7 +11,7 @@ const Contacts = () => {
          <div className="page page-enter-active">
           <MapsYandex />  
           </div>
-       
+
         )
     }
 

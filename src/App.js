@@ -7,18 +7,19 @@ import React from "react"
 //---import MapsYandex from './components/YandexMap/MapsYandex'
 
 import './App.css'
+import MainSkeleton from "./components/SkeletonSlayd";
 
 const  AppRouter = React.lazy( () => import(/* webpackChunkName: "AppRouter" */ "./components/AppRouter"))
 const  NavBar = React.lazy( () => import(/* webpackChunkName: "NavBar" */ "./components/navbar/NavBar"))
-//const  FotterIndex = React.lazy( () => import(/* webpackChunkName: "FotterIndex" */ "./components/Fotter"))
+
 
 
 function App() {
   return (
     <div className="App">
-       <React.Suspense ><NavBar /></React.Suspense>
-       <React.Suspense><AppRouter/></React.Suspense>
-        {/*<React.Suspense fallback={<div>Loading FUTTER...</div>}><FotterIndex /></React.Suspense>*/}
+       <React.Suspense fallback={<MainSkeleton />}><NavBar /></React.Suspense>
+       <React.Suspense ><AppRouter/></React.Suspense>
+
     
       
     </div>

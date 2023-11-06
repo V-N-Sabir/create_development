@@ -10,17 +10,16 @@ import {store} from './redux/store'
 
 //import FotterIndex from "./components/Fotter"
 import './index.css'
-import MainSkeleton from './components/SkeletonSlayd';
+//import MainSkeleton from './components/SkeletonSlayd';
 
 const  App = React.lazy( () => import(/* webpackChunkName: "App" */ "./App"))
-const  FotterIndex = React.lazy( () => import(/* webpackChunkName: "FotterIndex" */ "./components/Fotter"))
+//const  FotterIndex = React.lazy( () => import(/* webpackChunkName: "FotterIndex" */ "./components/Fotter"))
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
   <Provider store={store}>
-  <React.Suspense fallback={<MainSkeleton />}><App /></React.Suspense>
-    <React.Suspense fallback={<div>Loading FUTTER...</div>}><FotterIndex /></React.Suspense>
+  <React.Suspense fallback={<div>Index loading</div>}><App /></React.Suspense>
   </Provider>
   </BrowserRouter>
 );
