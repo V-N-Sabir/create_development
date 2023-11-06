@@ -26,7 +26,7 @@
 
  .navBar_contact {
    width: 200px;
-   flex-direction: column;
+  /* flex-direction: column;*/
  }
 
  .navBar_contact a {
