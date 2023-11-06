@@ -10,6 +10,7 @@ import {store} from './redux/store'
 
 //import FotterIndex from "./components/Fotter"
 import './index.css'
+import LoadingIndex from './components/loadingIndex/LoadingIndex';
 //import MainSkeleton from './components/SkeletonSlayd';
 
 const  App = React.lazy( () => import(/* webpackChunkName: "App" */ "./App"))
@@ -19,7 +20,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
   <Provider store={store}>
-  <React.Suspense fallback={<div>Index loading</div>}><App /></React.Suspense>
+  <React.Suspense fallback={<LoadingIndex />}><App /></React.Suspense>
   </Provider>
   </BrowserRouter>
 );

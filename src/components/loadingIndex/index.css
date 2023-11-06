@@ -1,0 +1,43 @@
+/*.main_circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  
+
+}*/
+
+.circle {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+
+      width: 40px;
+      height: 40px;
+      border: 2px solid crimson;
+      border-radius: 100%;
+      position: relative;
+      animation: rotateCircles 5.1s linear infinite;
+      
+  }
+  
+  .circle::before {
+      position: absolute;
+      top: 29px;
+      content: '';
+      width: 10px;
+      height: 10px;
+      background: white;
+      border-radius: 100%;
+      box-shadow: 0 0 10px 6px rgba(237, 20, 61, .8);
+  }
+  
+  @keyframes rotateCircles {
+      form {
+          transform: rotate(0);
+      }
+  
+      to {
+          transform: rotate(360deg);
+      }
+  }
