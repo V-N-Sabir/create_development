@@ -32,6 +32,7 @@
 
 .main_footer {
   grid-area: main_footer;
+  width: 90vw;
   margin: auto;
 }
 
