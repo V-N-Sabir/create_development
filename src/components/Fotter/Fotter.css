@@ -12,10 +12,12 @@
 */
 @media (max-width: 768px) {
  .wr_footer_block {
-   width: auto;
+   width: 90vw;
    flex-direction: column;
-   align-items: baseline;
+   align-items: flex-start;
    padding-bottom: 20px;
+   padding-right: 10px;
+   margin-left: -10px;
  }   
 
 .navBar_block {

@@ -9,6 +9,8 @@
     background-color: rgb(240, 240, 240);
  
    height: fit-content;
+   width: 90vw;
+   margin: auto;
   /* padding: 10px 0;*/
   }
 
