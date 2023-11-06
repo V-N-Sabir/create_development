@@ -13,7 +13,12 @@
 @media (max-width: 768px) {
  .wr_footer_block {
     display: block;
+    width: auto;
  }   
+
+.navBar_block {
+   flex-direction: column;
+} 
 
  .navBar_contact {
    width: 200px;
