@@ -19,9 +19,9 @@ const  App = React.lazy( () => import(/* webpackChunkName: "App" */ "./App"))
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-  <Provider store={store}>
-  <React.Suspense fallback={<LoadingIndex />}><App /></React.Suspense>
-  </Provider>
+    <Provider store={store}>
+      <React.Suspense fallback={<LoadingIndex />}><App /></React.Suspense>
+    </Provider>
   </BrowserRouter>
 );
 

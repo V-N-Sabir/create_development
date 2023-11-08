@@ -26,11 +26,10 @@ return (
     
  <header className="main_navBar">
     <div>
-    <ul className="navBar navBar_block">
-
-        {navBarRef.map(({name, path}) =>                
-        <li key={name}  onClick={() => navigate(path)} > {name} </li>)}
-    </ul>
+      <ul className="navBar navBar_block">
+          {navBarRef.map(({name, path}) =>                
+          <li key={name}  onClick={() => navigate(path)} > {name} </li>)}
+      </ul>
     </div>
 
     <Contacts clName="navBar_contact"/>

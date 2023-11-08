@@ -13,10 +13,7 @@ function App() {
   return (
     <div className="App">
        <React.Suspense fallback={<MainSkeleton />}><NavBar /></React.Suspense>
-       <React.Suspense ><AppRouter/></React.Suspense>
-
-    
-      
+       <React.Suspense ><AppRouter/></React.Suspense>  
     </div>
   );
 }

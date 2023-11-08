@@ -26,27 +26,23 @@ return (
     
     //
     <>
- <main className="main_pages">
-
-
+    <main className="main_pages">
         <Routes>               
             {PublicRoute.map(({path, Component}) =>                
                 <Route key={path} path={path} element={<React.Suspense fallback={<LoadingContext/>}><Component/></React.Suspense>}>
-                {({match}) => 
-                <CSSTransition
-                    timeout={1000}
-                    classNames={"page"}
-                    unmountOnExit
-                    in={!match != null}
-
-                >
+                    {({match}) => 
+                    <CSSTransition
+                        timeout={1000}
+                        classNames={"page"}
+                        unmountOnExit
+                        in={!match != null}
+                    >
                     <Component />
                 </CSSTransition>
 
                 }
                 </Route>
-                )}
-            
+                )} 
         </Routes>
     </main>
 
