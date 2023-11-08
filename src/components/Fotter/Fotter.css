@@ -19,23 +19,24 @@
    padding-right: 10px;
    margin-left: -10px;
  }   
-
+/*
 .navBar_block {
    flex-direction: column;
 } 
 
  .navBar_contact {
    width: 200px;
-  /* flex-direction: column;*/
+
  }
 
  .navBar_contact a {
    margin-bottom: 10px;
 }
-
-
+*/
+/* App.css
  .main_pages {
     width: 90vw;
  }
+ */
 }
 

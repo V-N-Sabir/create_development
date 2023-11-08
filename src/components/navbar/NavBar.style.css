@@ -114,3 +114,19 @@
         font-size: 18px;
     }
 }
+
+@media (max-width: 768px) {
+    .navBar_block {
+        flex-direction: column;
+     } 
+     
+      .navBar_contact {
+        width: 200px;
+     
+      }
+     
+      .navBar_contact a {
+        margin-bottom: 10px;
+     }
+
+}

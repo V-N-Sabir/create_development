@@ -1,12 +1,8 @@
 import React from "react"
 import './home.style.css'       
 //import MainSkeleton from "../components/SkeletonSlayd"
-
+//import LoadingContext from "../components/loadingContext/loadingContext"
 //import MainSkeleton from "../components/SkeletonSlayd"
-
-    //import LoadingContext from "../components/loadingContext/loadingContext"
-
-
 //const  Img1 = React.lazy( () => import(/* webpackChunkName: "Img1" */ "../components/Img1/Img1"))
 
 
@@ -27,7 +23,7 @@ const Home = React.memo(() => {
             <h1 className="main_title">Разработка сайтов на React открывает бесконечные возможности</h1>
 
       {/*<LoadingContext />*/}
-           {/*<MainSkeleton />*/}
+        {/* <MainSkeleton />*/}
             <div className="main_text">
             <ul className="list_text">
                 <li className="main_title">Забудьте о границах с CMS</li>

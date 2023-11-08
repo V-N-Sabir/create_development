@@ -14,3 +14,15 @@
 .skeleton svg {
     margin-right: -50px;
 }*/
+
+@media (max-width: 768px) {
+
+    .skeleton {
+        width: auto;
+        flex-direction: column;
+        /*margin-left: -30px;*/
+
+        position: relative;
+        left: -40px;
+     }
+}

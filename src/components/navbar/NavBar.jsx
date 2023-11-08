@@ -1,14 +1,9 @@
 import React from "react"
 import { useNavigate } from "react-router-dom"
-//import { HOME, CONTACTS, PROJECTS } from "../../utils/consts"
-
-
-
 import Contacts from "../contacts"
-import './NavBar.style.css'
 import { navBarRef } from "../navBarRef/navBarRef"
 
-
+import './NavBar.style.css'
 
 
 const NavBar = React.memo(() => {
