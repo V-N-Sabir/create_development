@@ -51,11 +51,12 @@
   
 }
 
-/*
+
 .page {
-  position: absolute;
+  /*position: absolute;*/
+  background: #f5f5dc;
 }
-*/
+
 
 /*!отвечает за появление*/
 .page-enter-active {
