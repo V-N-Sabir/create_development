@@ -168,6 +168,9 @@
     font-size: calc(24px + 16 * (100vw / 1200));
     margin: 8px auto 12px;
     text-align: center;
+
+    width: 60vw;
+    padding-top: 25px;
 }
 
 .main_text {
