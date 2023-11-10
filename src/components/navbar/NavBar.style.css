@@ -130,3 +130,10 @@
      }
 
 }
+
+@media (max-width: 320px) {
+    .navBar_contact {
+        width: 150px;
+    }
+
+}

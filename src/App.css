@@ -29,6 +29,11 @@
   padding-top: 5vw;
 }
 
+/*
+text-indent: 30px;
+    width: 70vw;
+    text-align: justify;
+*/
 
 .main_footer {
   grid-area: main_footer;
