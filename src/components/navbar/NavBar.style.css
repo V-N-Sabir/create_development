@@ -9,7 +9,7 @@
     background-color: rgb(240, 240, 240);
  
    height: fit-content;
-   width: 90vw;
+   width: 80vw;
    margin: auto;
   /* padding: 10px 0;*/
   }
@@ -28,6 +28,8 @@
     font-family: 'Nunito_ExtraLight', serif;
     font-weight: 600;
     font-size: calc(16px + 10 * (100vw / 1200));
+
+    margin-left: 20px;
 }
 
 .navBar_block {
@@ -133,7 +135,7 @@
 
 @media (max-width: 320px) {
     .navBar_contact {
-        width: 150px;
+        width: 100px;
     }
 
 }

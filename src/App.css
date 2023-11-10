@@ -37,7 +37,7 @@ text-indent: 30px;
 
 .main_footer {
   grid-area: main_footer;
-  width: 90vw;
+  width: 80vw;
   margin: auto;
 }
 
@@ -90,10 +90,10 @@ text-indent: 30px;
   min-height: 100vh;
   /*border: 2px solid brown;*/
 }
-
+/*
 @media (max-width: 768px) {
   .main_pages {
     width: 90vw;
  }
-}
+}*/
 

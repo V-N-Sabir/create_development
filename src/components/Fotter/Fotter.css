@@ -12,31 +12,14 @@
 */
 @media (max-width: 768px) {
  .wr_footer_block {
-   width: 90vw;
+  /* width: 90vw;
+     margin-left: -10px;*/
    flex-direction: column;
    align-items: flex-start;
    padding-bottom: 20px;
    padding-right: 10px;
-   margin-left: -10px;
+   
  }   
-/*
-.navBar_block {
-   flex-direction: column;
-} 
 
- .navBar_contact {
-   width: 200px;
-
- }
-
- .navBar_contact a {
-   margin-bottom: 10px;
-}
-*/
-/* App.css
- .main_pages {
-    width: 90vw;
- }
- */
 }
 
