@@ -25,24 +25,29 @@ const Adresses = () => {
   return (
       
     <div ref={ref} className='wrapper_fotter_adres'
-    itemscope itemtype="http://schema.org/Organization">
+    itemscope="" itemtype="http://schema.org/Organization">
       {/*<div className='wrapper_footer_skeleton'><ImgSkeleton/> <Skeleton/></div>*/}
+      {/*<span class="d-none" itemprop="name">Web developer</span>*/}
       {inView ?  
       <div className='main_adress'>
         <ImageIndex src={trubka} alt={"trubka"}/> 
-        <p className='main_adress_text'><span itemprop="telephone">+998 90 3463546</span></p>
+        <p className='main_adress_text'>
+<span itemprop="telephone">+998 90 3463546</span></p>
       </div>: 
       <div className='wrapper_footer_skeleton'><ImgSkeleton/><Skeleton/></div>}
       {inView ? 
       <div className='main_adress'>
           <ImageIndex src={maps} alt={"maps"}/>
-          <p  className='main_adress_text' >г. <span itemprop="addressLocality">Ташкент</span>, <span itemprop="streetAddress">Мирабадский район, дом 6/1</span></p>
+          <p  className='main_adress_text' >г. 
+<span itemprop="addressLocality">Ташкент</span>, 
+<span itemprop="streetAddress">Мирабадский район, дом 6/1</span></p>
       </div>: 
       <div className='wrapper_footer_skeleton'><ImgSkeleton/><Skeleton/></div>}
 
       {inView ? <div className='main_adress'>
         <ImageIndex src={pismo} alt={"pismo"}/>
-        <p className='main_adress_text' itemprop="email">sabirka682@gmail.com</p>
+        <p className='main_adress_text'> 
+<span itemprop="email">sabirka682@gmail.com</span> </p>
       </div>: 
       <div className='wrapper_footer_skeleton'><ImgSkeleton/><Skeleton/></div>}
 
