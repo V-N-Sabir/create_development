@@ -28,6 +28,7 @@ const Adresses = () => {
     itemscope="" itemtype="http://schema.org/Organization">
       {/*<div className='wrapper_footer_skeleton'><ImgSkeleton/> <Skeleton/></div>*/}
       {/*<span class="d-none" itemprop="name">Web developer</span>*/}
+      
       {inView ?  
       <div className='main_adress'>
         <ImageIndex src={trubka} alt={"trubka"}/> 
@@ -35,6 +36,7 @@ const Adresses = () => {
 <span itemprop="telephone">+998 90 3463546</span></p>
       </div>: 
       <div className='wrapper_footer_skeleton'><ImgSkeleton/><Skeleton/></div>}
+
       {inView ? 
       <div className='main_adress'>
           <ImageIndex src={maps} alt={"maps"}/>
